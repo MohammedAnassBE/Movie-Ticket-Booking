@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-02 16:30:07.793914",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "movie",
+  "date",
+  "theater",
+  "show",
+  "tickets",
+  "seats"
+ ],
+ "fields": [
+  {
+   "fieldname": "movie",
+   "fieldtype": "Data",
+   "label": "Movie"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "theater",
+   "fieldtype": "Link",
+   "label": "Theater",
+   "options": "Movie Theater"
+  },
+  {
+   "fieldname": "show",
+   "fieldtype": "Data",
+   "label": "Show"
+  },
+  {
+   "fieldname": "tickets",
+   "fieldtype": "Int",
+   "label": "Tickets"
+  },
+  {
+   "fieldname": "seats",
+   "fieldtype": "JSON",
+   "label": "Seats"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-19 17:43:27.646870",
+ "modified_by": "Administrator",
+ "module": "Movie",
+ "name": "Theater Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
